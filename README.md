@@ -10,4 +10,4 @@ themselves.
     packages](https://github.com/rhobis/Portfolio/tree/master/r-packages)
 
 -   [Tableau
-    visualizations](https://github.com/rhobis/Portfolio/tree/master/tableau)
+    visualizations](https://github.com/rhobis/Portfolio/tree/master/Tableau)
