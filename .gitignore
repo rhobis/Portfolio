@@ -1,0 +1,7 @@
+
+*.pper
+.httr-oauth
+
+.Rproj.user/
+
+*.html
