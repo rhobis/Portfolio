@@ -12,9 +12,11 @@ library(googlesheets4)
 sheet_id <- '1XEraqkr0ajmwfFLczyzAqL4WFKPNM_D6ETfPGYws3LY'
 dati <- 
     read_sheet(sheet_id) %>% 
-    mutate(client = str_detect(note, 'cliente')) %>%
-    mutate(client = ifelse(is.na(client), FALSE, client),
-           sciopero = ifelse(str_starts(sciopero, 's'), 'yes', 'no')) 
+    mutate(client = str_detect(note, 'cliente'),
+           client = ifelse(client, 'yes', 'no'),
+           client = ifelse(is.na(client), 'no', 'yes'),
+           sciopero = ifelse(str_starts(sciopero, 's'), 'yes', 'no')
+           ) 
 # View(dati)
 
 
