@@ -4,7 +4,7 @@ author: "Roberto Sichera"
 date: "12/8/2019"
 output:     
     md_document:
-        variant: markdown_github
+        variant: gfm
 ---
 
 
@@ -18,6 +18,8 @@ Each folder contains either links to projects of mine or the projects themselves
 **Table of contents:**
 
 * [R packages](https://github.com/rhobis/Portfolio/tree/master/r-packages)
+
+* [Shiny Apps](https://github.com/rhobis/Portfolio/tree/master/Shiny-apps)
 
 * [Tableau visualizations](https://github.com/rhobis/Portfolio/tree/master/Tableau)
 
